@@ -7,7 +7,7 @@ import { RootStackParamList } from '../App'
 
 type DetailsProps = NativeStackScreenProps<RootStackParamList, "Details">
 
-const Detail = ({ route, navigation }: DetailsProps) => {
+const Detail = ({ route }: DetailsProps) => {
   const { product } = route.params;
 
   return (
