@@ -14,7 +14,8 @@ export type RootStackParamList = {
   Home: undefined;
   Details: {product: Product}
 }
-const Stack = createNativeStackNavigator();
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 
 
